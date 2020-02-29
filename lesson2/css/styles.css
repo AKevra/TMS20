@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    height: 200px;
+    background-color: yellowgreen;
+    margin-bottom: 0;
+}
+.cats_blocks {
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-between;
+    border: red;
+}
+.one_cat_block {
+    width: 30%;
+}
+img {
+    width: 100%;
+}
