@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+h2:after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2d;
+    position: absolute;
+    left: calc(50% - 32px);
+    bottom: -15px;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.section {
+    padding: 100px 80px;
+}
+.section > p {
+color: green;
+
+}
+.section2 {
+    background-image: url(..//img/cat.jpg);
+    background-size: cover;
+}
+.section2 p {
+    color: white;
+}
