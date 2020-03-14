@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../fonts/Raleway-Regular.ttf)
+}
+@font-face {
+    font-family: 'Releway-thin-Italic';
+    src: url(../fonts/Raleway-Thin-Italic.ttf)
+}
+@font-face {
+    font-family: 'Raleway-light';
+    src: url(../fonts/Raleway-Light.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 13px 30px; 
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: black;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+section {
+    padding: 105px 143px;
+}
+.section_header {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway-Regular';
+    font-size:36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+.section_header h2 {
+    position: relative;
+    margin-bottom: 50px;
+}
+.section_header h2:after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2d;
+    position: absolute;
+    left: calc(50% - 32px);
+    bottom: -24px;
+}
+.section_header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    margin-bottom: 83px;
+}
+.blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.one_block {
+    width:30%;
+    text-align: center;
+}
+img {
+    font-size: 32px;
+    color: #ff8b38;
+    margin-bottom: 30px;      
+}
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+    
+/*styles for download_section*/
+.download_section{
+    background-image: url(..//img/background_img.png);
+    background-size: cover;
+}
+.download_section h2 {
+    color: #ffffff;
+}
+.download_section .section_header h2:after {
+    background-color: #ffffff;
+}
+.download_section .section_header p {
+    color: #ffffff;
+    opacity: 0.8;
+    font-family: 'Raleway-light';
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+.btns_block {
+    display: flex;
+    justify-content: center;
+}
+.ref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ref a {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.input_row {
+    
+}
+
+  
